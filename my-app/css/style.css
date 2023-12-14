@@ -1,4 +1,3 @@
-
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -36,6 +35,9 @@ body{
     width: 100%;
     padding: 2rem 9%;
     background: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     z-index: 100;
 }
 
