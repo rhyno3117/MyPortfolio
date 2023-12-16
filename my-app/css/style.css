@@ -59,6 +59,11 @@
       margin-left: 1.5rem;
   }
 
+  .navbar a:hover,
+  .navbar a.active{
+    color: var(--main-color);
+  }
+
   #menu-icon {
       font-size: 3.6rem;
       color: var(--text-color);
@@ -301,7 +306,7 @@
 }
 
 .skills-row .skills-column{
-    flex: 1 1 40rem;
+    flex: 1 1 20rem;
 }
 
 .skills-column .title{
@@ -344,7 +349,7 @@
     justify-content: space-between;
 }
 
-.skills-content .progress h3 span {
+/* .skills-content .progress h3 span {
     color: var(--text-color);
 }
 
@@ -361,9 +366,9 @@
     height: 100%;
     border-radius: .3rem;
     background: var(--main-color);
-}
+} */
 
-.skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span{
+/* .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span{
     width: 90%;
 }
 
@@ -395,7 +400,7 @@
 
 .skills-column:nth-child(3) .skills-content .progress:nth-child(2) .bar span{
     width: 100%;
-}
+} */
 
 .contact{
     min-height: auto;
@@ -404,7 +409,7 @@
 
 .contact form{
     max-width: 70rem;
-    margin: 0auto;
+    margin: 0 auto;
     text-align:center;
 }
 
@@ -521,4 +526,50 @@ width: 100%;
 
 .footer-iconTop a:hover i{
     color: var(--main-color)
+}
+
+/* BREAKPOINTS */
+@media (max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px){
+    .header{
+        padding:2rem 4%;
+    }
+
+    section{
+        padding: 10rem 4% 2rem;
+    }
+
+    .home { 
+        padding: 0 4%;
+    }
+
+    .footer{
+        padding: 2rem 4%;
+    }
+}
+
+@media (max-wdith: 768px){
+    .header{
+        background: var(--bg-color);
+    }
+
+    #menu-icon{
+        display: block;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 4%;
+        background: var(--bg-color);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    }
+
 }
