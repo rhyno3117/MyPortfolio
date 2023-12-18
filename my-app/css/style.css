@@ -53,11 +53,11 @@
   }
 
   .navbar a {
-
       font-size: 1.7rem;
       color: var(--text-color);
       font-weight: 500;
-      margin-left: 1.5rem;
+      margin-left: 3.5rem;
+      transition: .3s;
   }
 
   .navbar a:hover,
@@ -81,10 +81,11 @@
       display: flex;
       align-items: center;
       padding: 0 9%;
-      background: url('RHINO-LOGO-TRANSPARENT-BACKGROUND-PhotoRoom.png') no-repeat;
+      background: url('') no-repeat;
       background-size: cover;
       background-position: center;
   }
+
 
   .home-content {
       max-width: 60rem;
@@ -532,6 +533,8 @@
       color: var(--main-color)
   }
 
+
+
   /* BREAKPOINTS */
   @media (max-width: 1200px) {
       html {
@@ -569,7 +572,7 @@
       .navbar {
           position: absolute;
           top: 100%;
-          /* left: -100%; */
+          left: -100%;
           width: 100%;
           padding: 1rem 4%;
           background: var(--main-color);
@@ -579,27 +582,27 @@
           transition-delay: .25s;
       }
 
-      .navbar .active {
+      .navbar.active {
           left: 0;
           transition-delay: 0s;
       }
 
-      .navbar .active-nav {
-          position: absolute;
-          top: 0;
-          left: -100s;
-          width: 100%;
-          height: 100%;
-          background: yellowgreen;
-          border-top: .1rem solid rgba(0, 0, 0, .2);
-          z-index: -1;
-          transition: .25s ease;
-          transition-delay: 0s;
+      .navbar .active-nav{
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        z-index: -1;
+        transition: .25s ease;
+        transition-delay: 0s;
       }
 
-      .navbar.active .active-nav {
-          left: 0s;
-          transition-delay: .25s;
+      .navbar.active .active-nav{
+        left: 0;
+        transition-delay: .25s;
       }
 
       .navbar a {
@@ -609,12 +612,10 @@
           transform: translateX(-20rem);
           transition: .25s ease;
           transition-delay: 0s;
-
       }
 
-      .navbar.active a {
-          transform: translateX(0);
-          transition-delay: .25s;
+      .navbar.active a{
+        transform: translateX(0);
+        transition-delay: .25s
       }
-
   }
