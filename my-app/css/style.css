@@ -343,9 +343,14 @@
 
   .skills {
       min-height: auto;
-      padding-bottom: 7rem;
+      padding-bottom: 25rem;
       background: var(--second-bg-color);
   }
+
+  .skills .heading {
+    margin-bottom: 60px; /* Adjust this value as needed */
+}
+
 
   .skills h2 {
       display: inline-block;
@@ -466,11 +471,11 @@
 }
 
 .github-link {
-    margin-top: 10px; /* Adjust margin as needed */
+    margin-top: -30px; /* Adjust margin as needed */
 }
 
 .github-link i.bx.bxl-github {
-    font-size: 32px; /* Increased font size for the GitHub icon */
+    font-size: 52px; /* Increased font size for the GitHub icon */
 }
 
 
@@ -496,6 +501,7 @@ margin-top: 100px;
     margin: 20px;
     border: 4px solid var(--main-color);
     position: relative;
+    margin-top: -50px;
 }
 
 .card img{
