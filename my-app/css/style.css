@@ -461,14 +461,25 @@
 .skills-column:nth-child(3) .skills-content .progress:nth-child(2) .bar span{
     width: 100%;
 } */
+.projects {
+    text-align: center; /* Center-align the content */
+}
 
-  .bx.bxl-github {
-      color: var(--main-color);
-  }
+.github-link {
+    margin-top: 10px; /* Adjust margin as needed */
+}
 
-  .bx.bxl-medium {
-      color: var(--main-color);
-  }
+.github-link i.bx.bxl-github {
+    font-size: 32px; /* Increased font size for the GitHub icon */
+}
+
+
+.bx.bxl-github,
+.bx.bxl-medium {
+    color: var(--main-color);
+    border: 4px solid var(--main-color);
+    box-shadow: 0 0 0 2px white; /* Adding a white shadow behind the main color border */
+}
 
 
 .card-container{
@@ -476,8 +487,6 @@ display: flex;
 justify-content: center;
 flex-wrap: wrap;
 margin-top: 100px;
-
-
 }
 
 .card{
@@ -505,17 +514,41 @@ margin-top: 100px;
     color: #666;
     font-size: 15px;
     line-height: 1.3;
+    
+    
 }
 
-.card-content .btn{
+.card-content .btn {
     display: inline-block;
+    width: auto; /* Set width to auto to fit content */
     padding: 8px 16px;
-    background-color: #333;
+    background-color: var(--main-color);
     text-decoration: none;
     border-radius: 4px;
-    margin-top: 16px;
     color: #fff;
+    margin: 5px; /* Adjust margin as needed */
+    font-weight: bold; /* Setting the font weight to bold */
 }
+
+
+
+/*BlogsSection*/
+
+.blogs {
+    text-align: center; /* Center-align the content */
+}
+
+.medium-btn {
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+.medium-btn i.bx.bxl-medium {
+    font-size: 32px; /* Increased font size for the icon */
+}
+
+
+
+
 
 
 
