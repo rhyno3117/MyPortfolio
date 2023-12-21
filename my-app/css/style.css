@@ -558,7 +558,6 @@
 
 
   /*BlogsSection*/
-  /* Adjust the blogs section to match the structure of the projects section */
 
 .blogs {
     text-align: center;
@@ -570,7 +569,7 @@
     margin-top: -30px;
 }
 
-.bx.bxl-medium {
+.medium-btn i.bx.bxl-medium {
     font-size: 52px; /* Adjust the font size as needed */
     color: var(--main-color);
 }
@@ -770,6 +769,13 @@
 
   .contact form .btn-box.btns .btn {
       cursor: pointer;
+  }
+
+  .field .error-txt{
+    font-size: 14.5px;
+    color: #d93025;
+    text-align: left;
+    margin: -5px 0 10px;
   }
 
 
