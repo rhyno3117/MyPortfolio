@@ -685,8 +685,14 @@
 
 
 
-
-
+.contact {
+    min-height: auto;
+    padding-bottom: 7rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background: var(--second-bg-color);
+  }
 
 .contact h2{
     font-size: 40px;
@@ -696,8 +702,10 @@
 }
 
 .contact form{
-    width: 600px;
     text-align: center;
+    max-width: 70rem;
+    margin-left: auto; /* Center the form */
+    margin-right: auto;
 }
 
 form .input-box{
