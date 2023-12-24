@@ -12,11 +12,18 @@
   }
 
   :root {
-      --bg-color: #081b29;
-      --second-bg-color: #112e42;
+      --bg-color: #000000;
+      --second-bg-color: #303030;
       --text-color: #ededed;
       --main-color: #00abf0;
   }
+
+  /* :root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+} */
 
   html {
       font-size: 62.5%;
@@ -378,12 +385,14 @@
   }
 
   .skills-column .title {
-      position: relative;
-      display: inline-block;
-      font-size: 2.5rem;
-      margin: 0 0 1.5rem;
-      font-weight: bold;
-  }
+    position: relative;
+    display: inline-block;
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
 
   .skills-column .skills-box {
       position: relative;
@@ -430,6 +439,22 @@
       justify-content: space-between;
       color: var(--text-color)
   }
+
+.progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.progress h3 {
+    font-size: 1.5rem;
+}
+
+
+
+
+
 
 
 
