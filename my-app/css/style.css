@@ -158,6 +158,7 @@
       justify-content: space-between;
       width: 34.5rem;
       height: 5rem;
+      
   }
 
   .btn-box .btn {
@@ -721,12 +722,16 @@ form .input-box{
     width: 100%;
     padding: 18px;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid #00abf0;
     outline: none;
     border-radius: 6px;
     font-size: 16px;
     color: #ededed;
     margin: 12px 0;
+}
+
+.field.error .item{
+    border-color: #d93025;
 }
 
 .field .item::placeholder{
@@ -741,6 +746,11 @@ form .input-box{
     display: none;
 }
 
+.field.error .error-txt{
+    display: block;
+}
+
+
 form .textarea-field .item{
     resize: none;
 }
@@ -751,11 +761,11 @@ form .textarea-field .error-txt{
 
 form button{
     padding: 12px 32px;
-    background: #0ef;
+    background: #00abf0;
     border: none;
     outline: none;
     border-radius: 6px;
-    box-shadow: 0 0 10px #0ef;
+    box-shadow: 0 0 10px #00abf0;
     font-size: 16px;
     color: #333;
     letter-spacing: 1px;
