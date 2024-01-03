@@ -347,7 +347,7 @@
   .btn-box.btns {
       display: inline-block;
       width: 15rem;
-  }
+    }
 
 
 
@@ -791,7 +791,7 @@ form button{
     border-radius: 6px;
     box-shadow: 0 0 10px #00abf0;
     font-size: 16px;
-    color: #333;
+    color: black;
     letter-spacing: 1px;
     font-weight: 600;
     cursor: pointer;
