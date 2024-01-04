@@ -480,10 +480,10 @@
   border-radius: 50%;
   }
 
-  .bx.bxl-github,
+  /* .bx.bxl-github,
   .bx.bxl-medium {
       color: var(--main-color);
-  }
+  } */
 
   .card-container {
     display: flex;
