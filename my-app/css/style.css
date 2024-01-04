@@ -485,6 +485,12 @@
       color: var(--main-color);
   } */
 
+  .bx.bxl-github.i {
+    color: var(--main-color);
+}
+
+
+
   .card-container {
     display: flex;
     flex-wrap: wrap;
