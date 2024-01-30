@@ -572,6 +572,8 @@
     margin-bottom: 5px;
 }
 
+
+
 .buttons-all {
     position: absolute;
     bottom: 10px;
@@ -579,9 +581,6 @@
     width: 100%;
 }
 
-.buttons-container {
-    margin-bottom: 5px;
-}
 
 
 
@@ -704,9 +703,7 @@
     width: 100%;
 }
 
-.buttons-container {
-    margin-bottom: 5px;
-}
+
 
 
 
