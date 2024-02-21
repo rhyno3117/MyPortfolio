@@ -62,6 +62,8 @@
 
   .navbar {
       position: relative;
+
+
   }
 
   .navbar a {
@@ -708,17 +710,70 @@
 
 
 
+/* CERTIFICATIONS   */
+
+/* styles.css */
+.certification {
+    background-color: #303030;
+    padding: 20px;
+    scroll-margin-top: 60px; 
+
+}
+
+.certifications-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.certifications-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 10px; /* Adjust the padding to make the black box larger */
+    border-radius: 10px;
+    max-width: 500px; /* Set a maximum width for the black box */
+}
+
+.image-container {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.certifications-card img {
+    width: 100%;
+    max-height: 400px; /* Adjust the max-height to make the image larger */
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
 
 
 
 .contact {
     min-height: auto;
-    padding-bottom: 7rem;
+    padding-bottom: 7rem; /* Adjust this value to control the gap between contact and footer */
     text-align: center;
     margin: 0 auto;
     padding: 20px;
     background: var(--second-bg-color);
-  }
+    padding-bottom: 20rem; /* Adjust as needed */
+
+}
+
+
 
 .contact h2{
     font-size: 40px;
@@ -1101,6 +1156,10 @@ form button:hover{
           transition: .25s ease;
           transition-delay: .25s;
       }
+      .navbar a:hover,
+  .navbar a.active {
+      color: var(--main-color);
+  }
       .navbar.active {
           left: 0;
           transition-delay: 0s;
@@ -1133,6 +1192,10 @@ form button:hover{
           transform: translateX(0);
           transition-delay: .25s
       }
+      .navbar.active a.active {
+        color: var(--main-color);
+    }
+    
       .card-container {
         display: flex;
         flex-direction: column; /* Stacks cards for smaller screens */
