@@ -767,9 +767,9 @@
     padding-bottom: 7rem; /* Adjust this value to control the gap between contact and footer */
     text-align: center;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
     background: var(--second-bg-color);
-    padding-bottom: 20rem; /* Adjust as needed */
+    padding-bottom: -5rem; /* Adjust as needed */
 
 }
 
